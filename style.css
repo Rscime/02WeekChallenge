@@ -1,0 +1,108 @@
+:root{
+    --dark: #1A2238;
+    --blue: #9DAAF2;
+    --orange: #FF6A3D;
+    --yellow: #F4DB7D;
+    --light: #E1E2E2;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+}
+
+header{
+    display: inline-block;
+    align-items: center;
+    background-color: var(--dark);
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--light);
+}
+
+nav{
+    line-height: 2;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    margin-left: 75%;
+    justify-content: space-between;
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    color: var(--blue);
+}
+
+section{
+    background-color: #E1E2E5;
+}
+
+h2{
+    color: var(--orange);
+    display: block;
+}
+
+#photo{
+    max-width: 10%;
+    height: auto;
+    margin: 5px;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+.applications{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card-main{
+    flex: 1 0 85%;
+    height: 400px;
+    flex-wrap:nowrap;
+    margin: 2% 5%;
+    background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=");
+    background-size: cover;
+    padding: 10px;
+    border-color: var(--blue); 
+    border-style: solid;
+    border-width: 1px;
+    max-height: 10%;
+}
+
+.card-sub{
+    flex: 1 0 550px;
+    margin: 2.5% 5%;
+    padding:10px;
+    height: 400px;
+    background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=");
+    background-size: cover;
+    border-color: var(--blue); 
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card-main a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: x-large;
+    color: var(--dark);
+}
+
+.card-sub a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: x-large;
+    color: var(--dark);
+}
