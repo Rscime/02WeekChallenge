@@ -32,7 +32,7 @@ nav{
 nav ul{
     list-style-type: none;
     display:flex;
-    margin-left: 75%;
+    margin-left: 50%;
     justify-content: space-between;
 }
 
@@ -97,12 +97,56 @@ h2{
     text-decoration: none;
     font-weight: 800;
     font-size: x-large;
-    color: var(--dark);
+    color: var(--light);
 }
 
 .card-sub a{
     text-decoration: none;
     font-weight: 800;
     font-size: x-large;
-    color: var(--dark);
+    color: var(--light);
 }
+/*half width of computer*/
+@media screen and (max-width: 992px) {
+    header {
+      background-color: var(--blue);
+      color: black;
+    }
+    nav {
+        background-color: var(--yellow);
+      }
+    nav ul{
+        list-style-type: none;
+        display:block;
+        margin-left: 0%;
+        justify-content:space-between;
+    }
+    
+    nav li a{
+        color: var(--orange);
+    }
+    #photo{
+        max-width: 40%;
+        height: auto;
+        margin: 0 30%;
+    }
+    #about{
+        display: block;
+        align-items: center;
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: var(--light);
+    }
+    .card-main{
+        flex: 1 0 90%;
+    }
+
+    .card-sub{
+        flex: 1 0 90%;
+    }
+  }
+  
