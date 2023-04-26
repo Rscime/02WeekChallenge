@@ -13,6 +13,10 @@ body{
     background-color: var(--light);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--dark);
+    line-height: 1.5;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header{
@@ -23,6 +27,8 @@ header{
     padding-left: 30px;
     padding-right: 30px;
     color: var(--light);
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 nav{
@@ -50,6 +56,8 @@ section{
 h2{
     color: var(--orange);
     display: block;
+    font-size: x-large;
+    font-weight: 800;
 }
 
 #photo{
@@ -72,12 +80,12 @@ h2{
     height: 400px;
     flex-wrap:nowrap;
     margin: 2% 5%;
-    background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=");
+    background-image: url("https://images.unsplash.com/photo-1679189789333-cf24f75b0de7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
     background-size: cover;
     padding: 10px;
-    border-color: var(--blue); 
+    border-color: var(--orange); 
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
     max-height: 10%;
 }
 
@@ -86,24 +94,38 @@ h2{
     margin: 2.5% 5%;
     padding:10px;
     height: 400px;
-    background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=");
+    background-image: url("https://images.unsplash.com/photo-1681852287086-daa5deee6175?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
     background-size: cover;
-    border-color: var(--blue); 
+    border-color: var(--orange); 
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
+}
+
+.three{
+    background-image: url("https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+}
+
+.four{
+    background-image: url("https://images.unsplash.com/photo-1676594037928-4ae848ffec58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
+}
+
+.five{
+    background-image: url("https://images.unsplash.com/photo-1675518806026-53201020ef09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
 }
 
 .card-main a{
     text-decoration: none;
     font-weight: 800;
     font-size: x-large;
-    color: var(--light);
+    color: var(--dark);
+    margin:  0 0 0 10%;
 }
 
 .card-sub a{
     text-decoration: none;
     font-weight: 800;
     font-size: x-large;
+    margin:  0 0 0 10%;
     color: var(--light);
 }
 /*half width of computer*/
@@ -119,7 +141,6 @@ h2{
         list-style-type: none;
         display:block;
         margin-left: 0%;
-        justify-content:space-between;
     }
     
     nav li a{
