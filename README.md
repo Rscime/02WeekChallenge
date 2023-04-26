@@ -9,6 +9,7 @@ This application was completed by Rachel Scime as part of the UCF Coding Bootcam
 A portfolio of my completed work to be updated throught the course for future use in employment applications
 
 ## Preview
+<img width="1267" alt="image" src="https://user-images.githubusercontent.com/129807994/234723916-5bcaaad3-9ce2-4bfe-972e-b24cff47588a.png">
 
 ## Installation
 
